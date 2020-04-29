@@ -50,7 +50,7 @@ public class CrimeLab {
         } finally {
             cursor.close();
         }
-        return new ArrayList<>();
+        return crimes;
     }
 
     public Crime getCrime(UUID id) {
